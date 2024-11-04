@@ -1,0 +1,19 @@
+class person:
+    def __init__(self, name, gender, age):
+        self.name = name
+        self.gender = gender
+        self.age = age
+
+    def movement(self):
+        print("Person is moving")
+
+person1 = person("Evans","male",24)
+person1.movement()
+print(person1.name)
+
+person2 = person("Faith","female", 23)
+person2.movement()
+print(person2.name)
+
+person3 = person("Gladys","female", 20)
+print(person3.name)
